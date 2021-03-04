@@ -6,26 +6,28 @@ public class ArrayAssignmentEW {
 		
    ArrayList<String>list= new ArrayList<String>();
 		
-		list.add("Grapes");
-		list.add("Orange");
-		list.add("Apple");
-		list.add("Strawberry");
-		list.add("Watermelon");
+        list.add("Grapes");
+	 list.add("Orange");
+	  list.add("Apple");
+	 list.add("Strawberry");
+	list.add("Watermelon");
 		
-		System.out.println("Array Size: " + list.size());
+   System.out.println("Array Size: " + list.size());
 		
 		list.remove(2);
 		
-		System.out.println("Array Size: " + list.size());
+   System.out.println("Array Size: " + list.size());
 		
 		list.set(0, "GRAPES");
 		
-		for(int i = 0; i < list.size(); i++)
-			System.out.println(list.get(i));
+        for(int i = 0; i < list.size(); i++)
+     {
+         System.out.println(list.get(i));
+     }
 		
 		list.clear();
 		
-		System.out.println("Array Size: " + list.size());
+   System.out.println("Array Size: " + list.size());
 	}
 
 }
